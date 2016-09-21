@@ -1,0 +1,33 @@
+{
+  "name": "mockery-partial",
+  "version": "1.0.0",
+  "description": "abilty to mock full and partial modules",
+  "main": "mock.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "maty zisserman",
+  "license": "MIT",
+  "dependencies": {
+    "mockery": "^1.7.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maty21/mockery-partial.git"
+  },
+  "keywords": [
+    "mockery",
+    "shim",
+    "stub",
+    "partial",
+    "unit",
+    "test",
+    "testing",
+    "require"
+  ],
+  "bugs": {
+    "url": "https://github.com/maty21/mockery-partial/issues"
+  },
+  "homepage": "https://github.com/maty21/mockery-partial#readme"
+}
