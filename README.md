@@ -10,7 +10,7 @@ var fsMock = {
         cb('yoopi'); 
     }
 };
-
+// keep in mind that you can still use other fs modules functionality such as readFileSync or everything else 
 
 mockeryPartial.enable();
 mockeryPartial.registerPartial('fs',fsMock);
@@ -22,6 +22,6 @@ fs.stat('a',(res)=>{
 
 //output -> yoopi
 
-//you can still use  other fs modules such as readFileSync or 
+
 ```
 
