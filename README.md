@@ -10,7 +10,8 @@ var fsMock = {
         cb('yoopi'); 
     }
 };
-// keep in mind that you can still use other fs modules functionality such as readFileSync or everything else 
+// keep in mind that you can still use other fs modules functionality 
+// such readFileSync or everything else 
 
 mockeryPartial.enable();
 mockeryPartial.registerPartial('fs',fsMock);
