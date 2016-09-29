@@ -2,7 +2,7 @@
   "name": "mockery-partial",
   "version": "1.0.0",
   "description": "abilty to mock full and partial modules",
-  "main": "mock.js",
+  "main": "lib/mockery-partial.js",
   "scripts": {
     "test": "node test.js"
   },
