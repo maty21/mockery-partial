@@ -16,7 +16,7 @@ var fs = require('fs');
 fs.stat('a',(res)=>{
  console.log(res)
 })
-let bla =fs.readFileSync('/home/matyz/node_modules/github_com_Hacker0x01_react-datepicker.pdf','utf8')
+let bla =fs.readFileSync('README.md','utf8');
 
  mockeryPartial.deregisterMock('fs');
 var fs2 = require('fs');
